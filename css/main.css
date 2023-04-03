@@ -1,3 +1,4 @@
+
 :root {
     --content-font : 'Lucida Sans Unicode', arial;
     --h2h3-font: 'Mistral', sans-serif;
@@ -17,7 +18,7 @@ a:focus {
 }
 
 .wrapper {
-    max-width: 1200px;
+    max-width: 1300px;
     min-width: 600px;
     margin: 0 auto;
     padding: 0;
@@ -40,4 +41,10 @@ a:focus {
 
 .skip-links a:focus {
     top: 0;
+}
+
+.header-image img {
+    opacity: 50%;
+    justify-items: center;
+    margin: 0 auto;
 }
