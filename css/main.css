@@ -1,0 +1,43 @@
+:root {
+    --content-font : 'Lucida Sans Unicode', arial;
+    --h2h3-font: 'Mistral', sans-serif;
+    --h1-font: 'Lobster', arial;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    
+}
+
+/* Adding accessibility of Skip link in the top of homepage that is visible when using keyboard  */
+a:focus {
+    outline: 3px solid #232e21;
+}
+
+.wrapper {
+    max-width: 1200px;
+    min-width: 600px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.skip-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.skip-links a {
+    position: absolute;
+    top: -3em;
+    background-color: black;
+    color: white;
+    padding: .5em 1em;
+    font-weight: bold;
+}
+
+.skip-links a:focus {
+    top: 0;
+}
