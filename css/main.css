@@ -127,9 +127,16 @@ p {
     color: white;
 }
 
+.about-us img {
+    width: 550px;
+    height: auto;
+}
 
-button {
+
+.about-us button {
     width: 180px;
+    font-size: large;
+    font-weight: bold;
 }
 .btn-hover:hover {
     background-color: #696047;
@@ -143,10 +150,15 @@ button {
     min-width: 450px; 
 }
 
+.myprojects h2 {
+    color: white;
+}
+
 .myprojects button {
     width: 250px;
-    font-size: larger;
+    font-size: large;
     font-weight: bold;
+  
     
    
 }
@@ -157,9 +169,29 @@ button {
     
 }
 
+.contact img {
+    opacity: 0.2;
+    background-color: hsla(44, 28%, 58%, 0.878);
+    width: 250px;
+    height: auto;   
+}
+
+.contact button {
+    width: 180px;
+    font-size: large;
+    font-weight: bold;
+
+}
+
 footer .container {
     text-align: center;
 }
 footer .bottom {
     text-align: center;
+}
+
+
+/******* About us page*******/
+.background-info #content {
+    line-height: 2rem;
 }
