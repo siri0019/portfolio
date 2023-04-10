@@ -4,7 +4,7 @@
     --h2h3-font: 'Mistral', sans-serif;
     --h1-font: 'Lobster', arial;
     /* Root Variable Dark mode */
-/    color-scheme: dark;
+    color-scheme: dark;
     --bs-body-color: #adb5bd;
     --bs-body-color-rgb: 173, 181, 189;
     --bs-body-bg: #212529;
@@ -194,4 +194,35 @@ footer .bottom {
 /******* About us page*******/
 .background-info #content {
     line-height: 2rem;
+}
+
+/* *********Project page */
+.project button {
+    border-radius: 20%;
+    font-size: large;
+    font-weight: bold;
+    width: 180px;
+  
+}
+
+/****** Contact Page  ******/
+
+.fill-form input {
+    background-color: white;
+    color: #051b11;
+    font-weight: bold;
+    
+}
+
+.fill-form textarea {
+    background-color: white;
+    color: #696047;
+    font-weight: bold;
+}
+
+.fill-form button {
+    border-radius: 15px;
+    color: #731963;
+    font-weight: bold;
+    width: 200px;
 }
