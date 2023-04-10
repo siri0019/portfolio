@@ -28,8 +28,8 @@
 <body>
     <div class="wrapper">
         <ul class="skip-links">
-            <li><a href="#nav">Skip to main nav</a></li>
-            <li><a href="#main">Skip to main content</a></li>
+            <li><a href="#nav" class="visually-hidden-focusable sr-only">Skip to main nav</a></li>
+            <li><a href="#main" class="visually-hidden-focusable sr-only">Skip to main content</a></li>
         </ul>
         <!-- Bootstrap Nav bar  -->
         <header>
@@ -60,7 +60,7 @@
                 </div>
             </nav>
         </header>
-        <main>
+        <main id="main-content">
             <div class="project" id="home">
                 <div class="container" id="main">
                     <div class="row mt-3 text-bg-light">
@@ -70,45 +70,54 @@
                                 <div class="rounded-circle overflow-hidden">
                                     <img src="img/website.png" class="card-img-center img-cover" alt="website pic">
                                 </div>
-                                <h3 class="pt-4 pb-4">Website</h3>
-                                <h4>Website Progect:</h4>
-                                <p>Web Development Coding :</p>
+                                <div class="card-header pt-4 pb-4">Website</div>
+                                <div class="card-body">
+                                    <h4>Website Progect:</h4>
+                                    <p>Web Development Coding :</p>
 
-                                <ul>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>Javascript</li>
-                                </ul>
-                                <p>Content Management:</p>
+                                    <ul>
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>Javascript</li>
+                                    </ul>
+                                    <p>Content Management:</p>
 
-                                <ul>
-                                    <li>Word Press</li>
-                                    <li>Drupal</li>
-                                    <li>Shopify</li>
-                                </ul>
-                                <form action="project.html"><button class="btn btn-light btn-hover mx-auto"
-                                        type="submit">Read More</button></form>
+                                    <ul>
+                                        <li>Word Press</li>
+                                        <li>Drupal</li>
+                                        <li>Shopify</li>
+                                    </ul>
+                                    <form action="project.html"><button class="btn btn-light btn-hover mx-auto"
+                                            type="submit">Read More</button></form>
+                                </div>
                             </div>
                         </div>
 
                         <div class="col-md-6 " id="ux">
                             <div class="card pt-5 pb-4 mb-1" style="color: white; background-color: #696047;">
                                 <div class="rounded-circle overflow-hidden">
-                                    <img src="img/UX.png" class="card-img-center img-cover" alt="ux pic"></div>
-                                <h3 class="pt-4 pb-4">Ux/Strategy</h3>
-                                <p class="px-5"> User Research, Target Market
-                                    Moodboard, Information Architecture,
-                                    and User Journeys </p> <br> <br>
+                                    <img src="img/UX.png" class="card-img-center img-cover" alt="ux pic">
+                                </div>
+                                <div class="card-header pt-4 pb-4">Ux/Strategy</div>
+                                <div class="card-body text-center">
 
-                                <P class="px-5">Program :
-                                    Adobe XD </P>
-                                <P>(Wireframe and Design
-                                    and Prototyping)
-                                </p> <br> <br> <br> <br>
+                                    <p> User Research, Target Market
+                                        Moodboard, Information Architecture,
+                                        and User Journeys </p> <br> 
+
+                                    <P>Program :</P>
+
+                                    <ul>
+                                        <li>Adobe XD<P>(Wireframe and Design and Prototyping)
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <br> <br> <br> <br>
 
 
-                                <form action="project.html"><button class="btn btn-light btn-hover mx-auto"
-                                        type="submit">Read More</button></form>
+                                    <form action="project.html"><button class="btn btn-light btn-hover mx-auto"
+                                            type="submit">Read More</button></form>
+                                </div>
                             </div>
                         </div>
 
@@ -119,22 +128,23 @@
                                     <img src="img/photography.png" class="card-img-center img-cover"
                                         alt="photography pic">
                                 </div>
-                                <h3 class="pt-4 pb-4">Photography</h3>
+                                <div class="card-header pt-4 pb-4">Photography</div>
+                                <div class="card-body">
 
-                                <p>Photography and Videography</p>
+                                    <p>Photography and Videography</p>
 
-                                <p>Program:</p>
+                                    <p>Program:</p>
 
-                                <ul>
-                                    <li>Lightroom Classic</li>
-                                    <li>Premiere Pro</li>
-                                    <li>Media Encorder</li>
-                                    <li>Audition</li>
-                                </ul>
-                                <br> <br> <br>
-                                <form action="project.html"><button class="btn btn-light btn-hover mx-auto"
-                                        type="submit">Read
-                                        More</button></form>
+                                    <ul>
+                                        <li>Lightroom Classic</li>
+                                        <li>Premiere Pro</li>
+                                        <li>Media Encorder</li>
+                                        <li>Audition</li>
+                                    </ul>
+                                    <br> <br> <br>
+                                    <form action="project.html"><button class="btn btn-light btn-hover mx-auto"
+                                            type="submit">Read More</button></form>
+                                </div>
                             </div>
                         </div>
 
@@ -144,21 +154,23 @@
                                     <img src="img/Graphic-design.png" class="card-img-center img-cover"
                                         alt="graphic pic">
                                 </div>
-                                <h3 class="pt-4 pb-4">Graphic design</h3>
+                                <div class="card-header pt-4 pb-4">Graphic design</div>
+                                <div class="card-body">
 
-                                <p>Design all of graphic by using</p>
+                                    <p>Design all of graphic by using</p>
 
-                                <p>Program:</p>
+                                    <p>Program:</p>
 
-                                <ul>
-                                    <li>Photoshop</li>
-                                    <li>Illustrator</li>
-                                </ul>
+                                    <ul>
+                                        <li>Photoshop</li>
+                                        <li>Illustrator</li>
+                                    </ul>
 
-                                <br> <br> <br> <br> <br>
-                                <form action="project.html"><button class="btn btn-light btn-hover mx-auto"
-                                        type="submit">Read
-                                        More</button></form>
+                                    <br> <br> <br> <br> <br>
+                                    <form action="project.html"><button class="btn btn-light btn-hover mx-auto"
+                                            type="submit">Read
+                                            More</button></form>
+                                </div>
                             </div>
                         </div>
                     </div>

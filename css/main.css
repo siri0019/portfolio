@@ -88,8 +88,8 @@ a:focus {
 .skip-links a {
     position: absolute;
     top: -3em;
-    background-color: black;
-    color: white;
+    background-color: rgb(245, 245, 245);
+    color: rgb(67, 4, 255);
     padding: .5em 1em;
     font-weight: bold;
 }
@@ -203,6 +203,11 @@ footer .bottom {
 }
 
 /* *********Project page */
+.card-header {
+    font-size: 30px;
+    background-color: #696047;
+
+}
 .project button {
     border-radius: 20%;
     font-size: large;
