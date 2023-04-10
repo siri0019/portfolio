@@ -1,4 +1,3 @@
-
 :root {
     --content-font: 'Lucida Sans Unicode', arial;
     --h2h3-font: 'Mistral', sans-serif;
@@ -103,7 +102,8 @@ h1 {
     font-family: var(--h1-font);
 }
 
-h2, h3 {
+h2,
+h3 {
     font-family: var(--h2h3-font);
 }
 
@@ -111,7 +111,7 @@ p {
     font-family: var(--content-font);
 }
 
-
+/* Header style for bg-image has transparance 60 percentage and overlay with welcome texts  */
 
 .background-img img {
     opacity: 60%;
@@ -123,6 +123,7 @@ p {
     background-color: var(--bs-warning-border-subtle);
 }
 
+/* About us style on homepage */
 .about-us {
     color: white;
 }
@@ -132,22 +133,23 @@ p {
     height: auto;
 }
 
-
+/* button stlyle */
 .about-us button {
     width: 180px;
     font-size: large;
     font-weight: bold;
 }
+
 .btn-hover:hover {
     background-color: #696047;
     border-color: white;
     color: white;
-    
-}
 
+}
+/* Project section */
 .myprojects {
-    max-width: 1100px; 
-    min-width: 450px; 
+    max-width: 1100px;
+    min-width: 450px;
 }
 
 .myprojects h2 {
@@ -158,22 +160,21 @@ p {
     width: 250px;
     font-size: large;
     font-weight: bold;
-  
-    
-   
+
 }
+
 .myprojects .btn-hover:hover {
     background-color: #696047;
     border-color: white;
     color: white;
-    
 }
 
+/* Contact Section */
 .contact img {
     opacity: 0.2;
     background-color: hsla(44, 28%, 58%, 0.878);
     width: 250px;
-    height: auto;   
+    height: auto;
 }
 
 .contact button {
@@ -183,9 +184,11 @@ p {
 
 }
 
+/* footer */
 footer .container {
     text-align: center;
 }
+
 footer .bottom {
     text-align: center;
 }
@@ -202,7 +205,7 @@ footer .bottom {
     font-size: large;
     font-weight: bold;
     width: 180px;
-  
+
 }
 
 /****** Contact Page  ******/
@@ -211,7 +214,7 @@ footer .bottom {
     background-color: white;
     color: #051b11;
     font-weight: bold;
-    
+
 }
 
 .fill-form textarea {
