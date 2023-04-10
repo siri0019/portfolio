@@ -184,6 +184,10 @@ p {
 
 }
 
+.to-home a {
+    color: #031633;
+}
+
 /* footer */
 footer .container {
     text-align: center;
