@@ -212,12 +212,14 @@ footer .bottom {
 }
 
 /****** Contact Page  ******/
+.fill-form label {
+    color: white;
+}
 
 .fill-form input {
     background-color: white;
     color: #051b11;
     font-weight: bold;
-
 }
 
 .fill-form textarea {
