@@ -1,6 +1,6 @@
 :root {
     --content-font: 'Lucida Sans Unicode', arial;
-    --h2h3-font: 'Mistral', sans-serif;
+    --h2-font: 'Mistral', sans-serif;
     --h1-font: 'Lobster', arial;
     /* Root Variable Dark mode */
     color-scheme: dark;
@@ -102,12 +102,11 @@ h1 {
     font-family: var(--h1-font);
 }
 
-h2,
-h3 {
-    font-family: var(--h2h3-font);
+h2 {
+    font-family: var(--h2-font);
 }
 
-p {
+h3,p {
     font-family: var(--content-font);
 }
 
